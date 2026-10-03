@@ -347,6 +347,24 @@ The V1 repository is complete when:
 
 ## Strategic intent
 
-This repository is the first step toward a clearer evidence base for how CX manages customer data, service information and operational knowledge.
+This repository is an operational evidence layer for the current **business-led Customer Data Architecture** priority.
 
-The current-state SOP work should help reveal what needs to be governed, improved, reused or automated before the organisation can scale more connected omnichannel service experiences.
+Its role is not to design the future architecture.
+
+Its role is to make visible how customer data, customer accounts, service information and operational knowledge are actually handled today so future decisions are grounded in real work rather than assumed process.
+
+The current-state SOP work should therefore pay particular attention to:
+
+- where customer information is created, changed or corrected;
+- where staff have to reconstruct customer context manually;
+- where duplicate or fragmented records affect service delivery;
+- which decisions depend on tacit officer knowledge;
+- where authorised source-system actions occur;
+- where review, verification or escalation is required;
+- where service information and customer information depend on each other;
+- where unclear ownership creates recurring work; and
+- which recurring problems indicate a stewardship or capability gap rather than a one-off process issue.
+
+Findings from this repository should feed Customer Account Management and other portfolio work as **evidence**, not as a predetermined future operating model.
+
+The current-state SOP work should help reveal what needs to be governed, improved, reused or automated before the organisation can scale more connected customer experiences.
