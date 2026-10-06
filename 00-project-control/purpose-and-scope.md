@@ -1,134 +1,94 @@
 # Purpose and Scope
 
+**Status:** Discover + Define complete enough for progression  
+**Owner:** José Andrade  
+**Scope:** Customer Accounts + Information Management  
+**Last updated:** 6 October 2026
+
 ## Purpose
 
-The purpose of this repository is to map the current-state standard operating procedures for two Customer Experience functions:
+This repository is the **1D Discover + 2D Define evidence base** for Customer Accounts and Information Management.
 
-1. Customer Data and Systems Support
-2. Customer Focus Information Support
+Its purpose is to preserve current-state learning, operational evidence, pain points, assumptions, cross-function patterns, problem framing and the rationale for progressing into Business Context Architecture.
 
-The work will document how each function operates today, including recurring activities, triggers, process steps, systems, decisions, exceptions, handoffs, controls, risks and pain points.
+Detailed SOP and process work is supporting evidence, not the final output.
 
-This current-state baseline will help identify what needs to be improved, governed, reused or automated before future omnichannel service delivery models are designed or scaled.
+## 4D position
 
-## Why this work matters
+```text
+1D DISCOVER
+Customer Accounts + Information Management
+        ↓
+2D DEFINE
+Two related problem frames + shared HMW
+        ↓
+────────────────────────────────
+THIS REPOSITORY ENDS HERE
+────────────────────────────────
+        ↓
+3D DEVELOP
+Business Context Architecture
+        ↓
+4D DELIVER
+First bounded shipping + testing
+```
 
-Customer Experience depends on two important operational foundations:
+## Customer Accounts scope
 
-- reliable customer data and account context
-- reliable service delivery information and staff guidance
+- identity and account context;
+- duplicate and inconsistent records;
+- account classification;
+- customer/account relationships;
+- data-quality and trust signals;
+- remediation and prevention;
+- stewardship and decision rights;
+- current operational controls and workarounds.
 
-These foundations affect the ability of staff and systems to provide consistent, accurate and low-friction service across channels.
+## Information Management scope
 
-Before proposing a future operating model, the current work needs to be mapped honestly and practically.
+- service information and staff guidance;
+- Salesforce Knowledge and its operating-model assumptions;
+- Service / Service Offering ↔ Knowledge relationships;
+- information inside and outside CRM;
+- operational changes that affect customer interactions;
+- source authority, ownership and lifecycle;
+- manual awareness and communication dependencies;
+- reuse across channels.
 
-## In scope
+## Shared problem boundary
 
-This repository includes:
+The shared problem is not merely poor data or poor content.
 
-- current-state SOP discovery
-- officer-led process mapping
-- work type inventories
-- SOP inventories
-- systems and tools mapping
-- decision point mapping
-- exception and workaround capture
-- pain point and risk identification
-- data quality control mapping
-- content quality control mapping
-- omnichannel implication capture
-- role intent versus actual practice notes
-- cross-function pattern identification
+It is the absence of sufficiently connected and trusted business context across customer, service, information, operational state, interaction and outcome.
+
+## Evidence rule
+
+Keep separate:
+
+**evidence → assumption → interpretation → problem frame → design hypothesis**
+
+Detailed operational files may contain draft or partially validated material.
+
+## Output
+
+The output is:
+
+> **A sufficiently evidenced understanding of the Customer Accounts and Information Management problems to justify moving into Business Context Architecture design.**
 
 ## Out of scope
 
-This repository does not include:
+- future-state architecture design;
+- technology selection;
+- enterprise integration design;
+- implementation planning;
+- approved policy;
+- storing identifiable customer data;
+- replacing systems of record.
 
-- final approved operational policy
-- redesigning the functions
-- merging the functions
-- assigning future accountability
-- building automations
-- selecting enterprise platforms
-- storing customer data
-- storing personally identifiable information
-- storing restricted operational material
-- replacing formal records management systems
+## Next stage
 
-## Functions in scope
+The active work now moves to:
 
-## 1. Customer Data and Systems Support
+`jose-andr-cx-projects/business-context-architecture-develop-deliver`
 
-This function is mapped based on actual work performed today.
-
-The current-state focus includes:
-
-- customer data quality
-- customer record maintenance
-- duplicate customer record identification
-- customer record cleansing
-- manual de-duplication
-- data correction
-- CRM data maintenance support
-- escalation of data quality or system issues
-
-Although the broader position description includes measurement, reporting and analysis responsibilities, those responsibilities should not be mapped as current SOPs unless they are confirmed as work that is actually performed in practice.
-
-## 2. Customer Focus Information Support
-
-This function is mapped based on actual work performed today.
-
-The current-state focus includes:
-
-- Service Directory maintenance
-- customer service tool updates
-- CRM user issue support
-- telephone message updates
-- hot topic response coordination
-- urgent staff communications
-- Service Directory editor support
-- first contact resolution content improvement
-
-## Mapping principle
-
-Map the work as it happens today before designing how it should work tomorrow.
-
-Position descriptions are useful reference documents, but they may include aspirational, historic or partially operationalised responsibilities.
-
-Current-state SOPs should only be created for work that is actually performed.
-
-If a responsibility appears in a position description but is not performed in practice, it should be captured as a role gap or future capability signal.
-
-## Discovery outputs
-
-The expected outputs are:
-
-- a current-state SOP inventory for each function
-- priority SOP drafts for each function
-- a map of systems and tools used by each function
-- documented decision points
-- documented exceptions and workarounds
-- pain point and risk logs
-- role intent versus current reality notes
-- cross-function learning notes
-- omnichannel implication notes
-- automation candidate notes
-- future operating model signals
-
-## Future use
-
-The repository may later support:
-
-- a business case for a more mature CX operating capability
-- enterprise migration into a governed GitHub environment
-- improved SOP governance
-- reusable service knowledge design
-- customer data quality improvement
-- omnichannel readiness planning
-- automation opportunity assessment
-
-## Working status
-
-This repository is currently a discovery and concept-development workspace.
-
-It should be treated as draft until the mapped SOPs are validated with the officers who perform the work and reviewed by the appropriate CX stakeholders.
+Use this repository as evidence; do not reproduce its detailed discovery upstream.
