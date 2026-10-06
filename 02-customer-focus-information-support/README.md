@@ -1,93 +1,110 @@
 # Customer Focus Information Support
 
+**Status:** Current-state evidence retained; 2D problem framed sufficiently for progression  
+**Owner:** José Andrade  
+**Last updated:** 6 October 2026
+
 ## Purpose
 
-This folder captures the current-state SOP mapping for the Customer Focus Information Support function.
+This folder preserves current-state evidence about the Customer Focus Information Support function and the wider Information Management problem it reveals.
 
-The purpose is to document how the function operates today, with a focus on service delivery information, customer service tools, Service Directory maintenance, urgent customer response information, CRM user support and support for first contact resolution.
+It remains an evidence source. It is **not** the active future-state design project.
 
-This folder should map actual practice only.
+The active design from 3D onward sits in the Business Context Architecture work carried in the `customer-account-management` repository.
 
-## Current-state focus
+## What this current-state work revealed
 
-The current-state focus includes:
+The original function has been strongly shaped by an internally focused Contact Centre operating model.
 
-- maintaining Service Directory content
-- updating customer service tools
-- supporting CRM user issues and requests
-- maintaining telephone messages on hold
-- coordinating responses to hot topics
-- communicating urgent updates to branch staff
-- supporting Service Directory editors
-- improving content that supports first contact resolution
+Much of the information-management activity is concerned with:
 
-## Mapping questions
+- refining service information into guidance for phone agents;
+- maintaining Service Directory and customer-service tools;
+- supporting urgent or hot-topic responses;
+- communicating changes to staff;
+- resolving unclear, outdated or conflicting information;
+- manually coordinating across teams and systems.
 
-Use these questions when mapping the function:
+Salesforce Knowledge reflects this operating model. It contains useful information, but much of it is procedural, internally focused and only partially connected to the underlying customer, service and operational context.
 
-- What information support work lands on the officer’s desk in a normal week?
-- What service information is updated regularly?
-- Who requests updates?
-- Who approves changes?
-- What systems or tools are updated?
-- What information is duplicated across tools?
-- What happens when service information is missing, outdated or conflicting?
-- What requests are urgent?
-- What topics create customer contact spikes?
-- How are branch staff informed of urgent updates?
-- How are Service Directory editors supported?
-- What makes service information good enough for first contact resolution?
-- What information could be reused across channels in future?
+The problem also extends beyond CRM. Customer-relevant information is created and changed across service areas and operational systems, and CX may depend on those areas recognising that a change matters and manually communicating it.
 
-## Files in this folder
+## 2D problem frame
 
-| File | Purpose |
-|---|---|
-| `role-context.md` | Summarises the function context and current-state role framing. |
-| `actual-practice-summary.md` | Captures work confirmed as current practice. |
-| `sop-inventory.md` | Lists current-state SOP candidates. |
-| `current-state-process-map.md` | Maps the overall current-state process landscape. |
-| `knowledge-and-work-types.md` | Categorises recurring, ad hoc, urgent and knowledge-related work. |
-| `systems-and-tools.md` | Identifies service information tools, CRM systems, communication tools and dependencies. |
-| `decision-points.md` | Captures decisions made during current processes. |
-| `exception-pathways.md` | Captures cases that do not follow the standard path. |
-| `content-quality-controls.md` | Captures checks, rules and safeguards used to maintain service information quality. |
-| `pain-points-and-risks.md` | Captures operational friction, risks and failure points. |
-| `omnichannel-implications.md` | Captures future-state implications for reusable service knowledge and connected service delivery. |
-| `sops/` | Contains individual current-state SOP drafts. |
+The working problem frame is:
 
-## Starter SOPs
+`problem-framing.md`
 
-Initial SOP candidates:
+It asks:
 
-- `CFIS-SOP-001-update-service-directory-content.md`
-- `CFIS-SOP-002-maintain-customer-service-tools.md`
-- `CFIS-SOP-003-support-crm-user-issues-and-requests.md`
-- `CFIS-SOP-004-maintain-telephone-messages-on-hold.md`
-- `CFIS-SOP-005-coordinate-hot-topic-customer-responses.md`
-- `CFIS-SOP-006-communicate-urgent-updates-to-branch-staff.md`
-- `CFIS-SOP-007-support-service-directory-editors.md`
-- `CFIS-SOP-008-improve-first-contact-resolution-content.md`
+> **How might we connect the business context behind customers, services and operational changes so the right information can be recognised, trusted and reused wherever a customer interaction occurs?**
 
-These SOPs are draft candidates until validated with the officer who performs the work.
+This problem frame is considered sufficient to enter 3D while further evidence is gathered through targeted testing.
 
-## Current-state outputs
+## Relationship to Business Context Architecture
 
-This folder should produce:
+From 3D onward, Information Management is not a separate project.
 
-- a validated SOP inventory
-- current-state SOP drafts
-- a map of knowledge and work types
-- a list of decision points
-- an exception pathway map
-- content quality control notes
-- systems and tools map
-- pain point and risk log
-- omnichannel implication notes
-- reusable information signals
+It is one of two design lenses inside the same Business Context Architecture:
 
-## Working status
+```text
+Customer Account Management
+trusted customer + relationship context
+                \
+                 \
+                  BUSINESS CONTEXT ARCHITECTURE
+                 /
+                /
+Information Management
+trusted service + operational context
+```
 
-Status: Draft current-state discovery.
+Information Management specifically contributes questions about:
 
-Do not treat any SOP in this folder as approved operational policy until it has been validated, reviewed and formally accepted through the appropriate governance process.
+- Service / Service Offering;
+- service rules and requirements;
+- knowledge and guidance;
+- operational state and change;
+- source versus representation;
+- ownership;
+- lifecycle;
+- reuse;
+- how CX becomes aware when customer-relevant context changes outside CRM.
+
+## Current-state focus retained here
+
+This folder continues to preserve evidence about:
+
+- Service Directory content;
+- customer-service tool maintenance;
+- CRM user support;
+- telephone messages on hold;
+- hot-topic response coordination;
+- urgent staff communications;
+- Service Directory editor support;
+- first-contact-resolution content;
+- systems, tools, decision points, exceptions, risks and quality controls.
+
+These materials should be strengthened only when they help test or refine the Business Context Architecture. There is no requirement to complete every draft SOP before 3D proceeds.
+
+## Evidence boundary
+
+Draft SOPs and hypotheses remain draft until validated.
+
+Do not treat the content in this folder as:
+
+- approved operational policy;
+- a complete future operating model;
+- evidence that every listed activity occurs consistently;
+- a technology recommendation.
+
+## Next use
+
+Use this repository selectively to supply evidence for 3D and 4D tests, especially:
+
+1. Service Offering ↔ Knowledge relationships;
+2. changes originating outside CRM;
+3. unclear source or ownership;
+4. duplicated or differently represented business meaning;
+5. manual communication dependencies;
+6. gaps that create customer or staff effort.
